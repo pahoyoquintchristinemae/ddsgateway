@@ -34,6 +34,9 @@ $app->withEloquent();
 $app->configure('services');
 $app->configure('auth');
 
+//added codes for database.php
+$app->configure('database');
+
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
